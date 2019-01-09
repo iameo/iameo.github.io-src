@@ -40,6 +40,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MARKUP = ['md']
 PLUGIN_PATHS = ['./plugins', './plugins/pelican-plugins']
 PLUGINS = [
+    'render_math',
     'summary',       # auto-summarizing articles
     'feed_summary',  # use summaries for RSS, not full articles
     'ipynb.liquid',  # for embedding notebooks
