@@ -25,8 +25,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/iamOEmmanuel'),
+          ('github', 'https://github.com/iameo'),
+          ('envelope','mailto:okwudike.emmanuel@gmail.com'))
 
 DEFAULT_PAGINATION = 10
 
@@ -49,12 +50,15 @@ PLUGINS = [
 ]
 IGNORE_FILES = ['.ipynb_checkpoints']
 
-#Theme
+#Theme settings
 THEME = 'attila'
+HEADER_COLOR = 'black'
+COLOR_SCHEME_CSS = 'monokai.css'
+
 
 STATIC_PATHS = ['images','downloads']
 
-COLOR_SCHEME_CSS = 'monokai.css'
+
 
 TWITTER_USERNAME = 'iamOEmmanuel'
 GITHUB_USERNAME = 'iameo'
