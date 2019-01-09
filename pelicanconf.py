@@ -52,9 +52,8 @@ IGNORE_FILES = ['.ipynb_checkpoints']
 
 #Theme settings
 THEME = 'attila'
-HEADER_COLOR = 'black'
 COLOR_SCHEME_CSS = 'monokai.css'
-
+SHOW_FULL_ARTICLE = True
 
 STATIC_PATHS = ['images','downloads']
 
