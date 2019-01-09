@@ -1,0 +1,9 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/iameo/iameo.github.io.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
+[submodule "plugins/pelican-plugins"]
+	path = plugins/pelican-plugins
+	url = git://github.com/getpelican/pelican-plugins.git
