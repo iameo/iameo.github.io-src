@@ -4,3 +4,8 @@ slug: test-post
 tags: test,pelican
 
 This is for a test.
+
+```python
+   def printOut():
+       return "testing code block"
+```
