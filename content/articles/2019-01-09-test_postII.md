@@ -1,6 +1,6 @@
 Title: Test Post
 Date: 2019-01-09 23:50
-slug: test-post
+slug: test-post-ii
 tags: test,pelican, II
 category: test
 
