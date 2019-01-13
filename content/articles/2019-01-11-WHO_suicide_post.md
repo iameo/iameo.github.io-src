@@ -9,7 +9,7 @@ Series: WHO suicide Data
 Series_index: 1
 
 
-This is my first public notebook and why it's on suicide is merely a thing of coincedence.
+This is my first public notebook and why it's on suicide is merely a thing of coincidence.
 I'll try to be brief while simplistic in pouring out figures and graphs, so let's get started.
 
 ## Workflow:
