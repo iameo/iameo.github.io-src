@@ -12,7 +12,7 @@ Series_index: 1
 This is my first public notebook and why it's on suicide is merely a thing of coincidence.
 I'll try to be brief while simplistic in pouring out figures and graphs, so let's get started.
 
-## Workflow:
+### Workflow:
 - import the needed packages; from visualization tools to number handingling tools
 - load dataset
 - produce graphs, more graphs and even more graphs.
@@ -23,7 +23,7 @@ I'll try to be brief while simplistic in pouring out figures and graphs, so let'
 
 {% notebook ./downloads/notebooks/WHO_suicide_notebook.ipynb %}
 
-# Observation/Summary:
+## Observation/Summary:
 
 1. 5-14 years and 75+ years have low suicide rate.
 2. 15-24 years, 25-34 years and 35-54 years consist of high suicide rates.
