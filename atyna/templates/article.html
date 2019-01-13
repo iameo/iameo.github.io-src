@@ -79,10 +79,10 @@
                 {% endif %}
                 <a href="{{ SITEURL }}/{{ author.url }}">{{ author_name }}</a>
             {% endfor %}
-            | <i class="far fa-calendar-alt"> <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
+            | <i class="far fa-calendar-alt"></i> <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
         </span>
         {% if article.modified %}
-            <span class="post-meta"> | </i> Updated on {{ article.locale_modified }}</span>
+            <span class="post-meta"> | Updated on {{ article.locale_modified }}</span>
 
         {% endif %}
 
