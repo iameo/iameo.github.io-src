@@ -970,7 +970,7 @@ img {
 .nav-button {
     position: fixed;
     top: 0;
-    margin: .7em;
+    margin: .63em;
     z-index: 200
 }
 
@@ -1865,7 +1865,7 @@ article .extras a.comments_btn:hover {
     }
     .blog-logo,
     .nav-button {
-        position: absolute
+        position: fixed;
     }
     #blog-author {
         margin: auto
