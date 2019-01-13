@@ -887,7 +887,8 @@ img {
     font-weight: 700;
     font-size: 2em;
     line-height: 1em;
-    text-decoration: none
+    text-decoration: none;
+    padding: 0em .2em 0em .2em;
 }
 
 .home-template .blog-name {
