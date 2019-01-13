@@ -3,7 +3,6 @@
 
 
 @charset "UTF-8";
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
@@ -776,7 +775,7 @@ table td {
     padding: 0.5em;
     line-height: 0.95em;
     text-align: left;
-    border: 1px solid #e5e4e1
+    border: 1px solid #252420
 }
 
 table th {
