@@ -970,7 +970,7 @@ img {
 .nav-button {
     position: fixed;
     top: 0;
-    margin: .75em;
+    margin: .7em;
     z-index: 200
 }
 
@@ -1335,7 +1335,7 @@ article .extras a.comments_btn:hover {
 }
 
 .container .post {
-    padding: 2em 0
+    padding: .25em 0
 }
 
 .container .post:after {
@@ -1392,7 +1392,7 @@ article .extras a.comments_btn:hover {
     position: relative;
     z-index: 10;
     margin: 3em 0 0.35em;
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
     text-indent: -1px;
@@ -1411,7 +1411,7 @@ article .extras a.comments_btn:hover {
     z-index: 10;
     margin: 0 0 0.5em;
     color: rgb(2, 22, 110);
-    font-size: .85em;
+    font-size: .65em;
     line-height: 1em;
     font-weight: 700;
     text-indent: -1px;
