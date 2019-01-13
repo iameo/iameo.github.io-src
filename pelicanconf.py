@@ -37,7 +37,7 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 #copied
-MARKUP = ['md']
+MARKUP = ['md','ipynb']
 PLUGIN_PATHS = ['./plugins', './plugins/pelican-plugins']
 PLUGINS = [
     'render_math',
@@ -47,14 +47,16 @@ PLUGINS = [
     'liquid_tags.img',  # embedding images
     'liquid_tags.video',  # embedding videos
     'liquid_tags.include_code',  # including code blocks
-    'liquid_tags.literal'
+    'liquid_tags.literal',
+    'ipynb.markup',
 ]
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 #Theme settings
-THEME = 'attila'
-COLOR_SCHEME_CSS = 'monokai.css'
-SHOW_FULL_ARTICLE = True
+THEME = 'atyna'
+COLOR_SCHEME_CSS = 'github.css'
+SHOW_FULL_ARTICLE = False
+
 
 STATIC_PATHS = ['images','downloads']
 
