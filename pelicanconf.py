@@ -52,6 +52,18 @@ PLUGINS = [
 ]
 IGNORE_FILES = ['.ipynb_checkpoints']
 
+IPYNB_USE_METACELL = True
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {},
+    },
+    'output_format': 'html5',
+}
+
 #Theme settings
 THEME = 'atyna'
 COLOR_SCHEME_CSS = 'github.css'
@@ -59,7 +71,6 @@ SHOW_FULL_ARTICLE = False
 
 
 STATIC_PATHS = ['images','downloads']
-
 
 
 TWITTER_USERNAME = 'iamOEmmanuel'
