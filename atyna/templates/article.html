@@ -71,6 +71,7 @@
             <span class="blog-description">{{ article.headline }}</span>
         {% endif %}
         <span class="post-meta">
+	    <i class="fas fa-user"></i>
             {% for author in article.authors %}
                 {% set author_name = author.name | title %}
                 {% if AUTHORS_BIO and author.name.lower() in AUTHORS_BIO %}
@@ -81,7 +82,7 @@
             | <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
         </span>
         {% if article.modified %}
-            <span class="post-meta"> | Updated on {{ article.locale_modified }}</span>
+            <span class="post-meta"> | <i class="far fa-calendar-alt"></i> Updated on {{ article.locale_modified }}</span>
 
         {% endif %}
 
