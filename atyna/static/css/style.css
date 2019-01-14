@@ -961,7 +961,7 @@ img {
 }
 
 .inner {
-    max-width: 33em;
+    max-width: 36.5em;
     margin: 0 auto;
     padding: 0 .45em;
 }
@@ -1394,7 +1394,7 @@ article .extras a.comments_btn:hover {
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
-    text-indent: -1px;
+    text-indent: -2px;
     color: #000;
 }
 
@@ -1407,10 +1407,10 @@ article .extras a.comments_btn:hover {
 
 .post-title a:hover {
     -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
     position: relative;
     z-index: 10;
     margin: 0 0 0.3em;
