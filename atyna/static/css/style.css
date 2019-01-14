@@ -1413,16 +1413,13 @@ article .extras a.comments_btn:hover {
 	transition: all 0.4s ease-in-out;
     position: relative;
     z-index: 10;
-    margin: 0 0 0.355em;
+    margin: 0 0 0.35em;
     color: rgb(2, 22, 110);
     line-height: .85em;
     font-weight: 700;
     text-indent: -1px;
     text-transform: uppercase;
 }
-
-
-
 
 
 .post-meta {
@@ -1565,7 +1562,7 @@ article .extras a.comments_btn:hover {
     margin: -0.5em 0 0 5%;
     overflow: hidden;
     background: #fff;
-    border-radius: 10em;
+    border-radius: 9.555em;
     box-sizing: border-box
 }
 
