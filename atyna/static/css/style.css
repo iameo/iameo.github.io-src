@@ -463,17 +463,17 @@ th {
         display: flex;
         -ms-flex-direction: column;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 100vh
     }
     #wrapper, #blog-header, #post-header {
         -ms-flex: 1;
-        flex: 1;
+        flex: 1
     }
 }
 
 html {
     font-size: 62%;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 
 html.menu-active,
