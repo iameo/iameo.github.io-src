@@ -16,7 +16,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .prompt {
@@ -550,7 +550,7 @@ h6 a {
 p,
 ul,
 ol {
-    margin: 1.3em auto;
+    margin: 1.5em auto;
     font-family: 'Source Sans Pro', sans-serif;
     color: #000;
 }
@@ -1258,6 +1258,10 @@ img {
     margin-top: -5em;
     padding-bottom: 3em;
     border: 0
+}
+
+.author-template #blog-header.has-cover {
+    padding: 6em 0
 }
 
 #blog-author .post-author-avatar {
