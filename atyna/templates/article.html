@@ -38,8 +38,6 @@
     </div>
 
     <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-
         <nav id="navigation">
           {% if SITE_LOGO %}
             <span class="blog-logo">
@@ -64,9 +62,10 @@
         <article class="post">
         <div class="inner">
             <section class="post-content">
+            <h2 class="post-title">{{ article.title }}</h2>
     <header>
        
-   <h1 class="post-title">{{ article.title }}</h1>
+  
 	 {% if article.headline %}
             <span class="blog-description">{{ article.headline }}</span>
         {% endif %}

@@ -4,9 +4,7 @@
 
 {% block header %}
     <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
-      <div class="inner">
+    <header id="blog-header">
         <nav id="navigation">
           {% if SITE_LOGO %}
             <span class="blog-logo">
@@ -21,10 +19,7 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Category {{ category }}</h1>
-        <span class="blog-description">Posts: {{ articles|count }}</span>
-
-      </div>
+       
     </header>
 {% endblock header %}
 
@@ -32,6 +27,8 @@
 
 <div id="index" class="container">
   <main class="content" role="main">
+      <span class="blog-description">Posts: {{ articles|count }}</span>
+      <h3 class="post-title">Category {{ category }}</h3>
     {% include "partials/loop.html" %}
   </main>
 </div>

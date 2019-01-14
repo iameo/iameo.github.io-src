@@ -9,7 +9,6 @@
 {% block header %}
     <!-- Page Header -->
     <header id="blog-header">
-      <div class="inner">
         <nav id="navigation">
           {% if SITE_LOGO %}
           <span class="blog-logo">
@@ -20,7 +19,7 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-      </div>
+     
         <h1 class="blog-name"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         {% if SITESUBTITLE %}
         <span class="blog-description">{{ SITESUBTITLE }}</span>
@@ -29,7 +28,6 @@
 {% endblock header %}
 
 {% block content %}
-
 <div id="index" class="container">
   <main class="content" role="main">
     {% include "partials/loop.html" %}

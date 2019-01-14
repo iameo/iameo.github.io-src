@@ -2,12 +2,10 @@
 
 {% block title %}{{ SITENAME }} | Tags{% endblock %}
 
-
 {% block header %}
+
     <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
-      <div class="inner">
+    <header id="blog-header">
         <nav id="navigation">
           {% if SITE_LOGO %}
             <span class="blog-logo">
@@ -22,8 +20,6 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">{{ SITENAME }} - Tags</h1>
-      </div>
     </header>
 {% endblock header %}
 
@@ -32,6 +28,8 @@
   {% set steps = (TAG_CLOUD_STEPS|default(5, true)) - 1 %}
   <article class="post">
     <div class="inner tag-cloud">
+        <h1 class="post-title">{{ SITENAME }} - Tags</h1>
+
       {% for tag, articles in tags|sort %}
         {% set count = articles|count %}
         <div class="tag tag-weight-{{ (count/(max_count/steps))|int + 1 }}">
