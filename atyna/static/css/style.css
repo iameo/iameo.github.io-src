@@ -79,7 +79,7 @@ dfn {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     margin: .67em 0;
 }
 
@@ -513,7 +513,7 @@ h6 {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     line-height: 1em;
     text-indent: -1px;
     margin: 2em 0 -0.5em
@@ -961,7 +961,7 @@ img {
 }
 
 .inner {
-    max-width: 34em;
+    max-width: 33.45em;
     margin: 0 auto;
     padding: 0 .45em;
 }
@@ -1193,7 +1193,7 @@ img {
 }
 
 .progress-container.ready {
-    opacity: 0.3
+    opacity: 0.25
 }
 
 .progress-bar {
@@ -1201,7 +1201,7 @@ img {
     width: 0;
     height: 1.2px;
     background: #010258;
-    box-shadow: 0 0 1.2px black, 0 0 4px black;
+    box-shadow: 0 0 1.15px black, 0 0 3.55px black;
 }
 
 #footer {
@@ -1390,7 +1390,7 @@ article .extras a.comments_btn:hover {
 .post-title {
     position: relative;
     z-index: 10;
-    margin: 2em 0 0.35em;
+    margin: 2.33em 0 0.35em;
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
@@ -1413,10 +1413,11 @@ article .extras a.comments_btn:hover {
 	transition: all 0.4s ease-in-out;
     position: relative;
     z-index: 10;
-    margin: 0 0 0.3em;
+    margin: 0 0 0.355em;
     color: rgb(2, 22, 110);
-    line-height: .7em;
+    line-height: .85em;
     font-weight: 700;
+    text-indent: -1px;
     text-transform: uppercase;
 }
 
