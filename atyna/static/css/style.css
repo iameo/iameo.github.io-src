@@ -483,7 +483,7 @@ html.menu-active,
 }
 
 body {
-    font: 400 1.9em / 1.5em 'Source Sans Pro', serif;
+    font: 400 1.855em / 1.555em 'Source Sans Pro', serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -963,7 +963,7 @@ img {
 }
 
 .inner {
-    max-width: 32.45em;
+    max-width: 36em;
     margin: 0 auto;
     padding: 0 .45em;
 }
