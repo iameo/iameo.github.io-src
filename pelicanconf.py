@@ -78,3 +78,5 @@ GITHUB_USERNAME = 'iameo'
 AUTHOR_BLOG = 'https://iameo.github.io'
 SHOW_ARCHIVES = True
 SHOW_FEED = False 
+
+GOOGLE_SITE_VERIFICATION: 'UA-132444432-1'
