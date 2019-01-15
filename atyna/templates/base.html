@@ -14,7 +14,7 @@
   <meta name="google-site-verification" content="{{ GOOGLE_SITE_VERIFICATION }}">
   {% endif %}
 
-  <title>{% block title %}{{ SITENAME }}{% if SITESUBTITLE and SHOW_SITESUBTITLE_IN_HTML %} - {{ SITESUBTITLE }}{% endif %}{% endblock title %}</title>
+  <title>{% block title %}Home | {{ SITENAME.upper() }}{% endblock title %}</title>
 
   {% if SITE_DESCRIPTION %}
   <meta name="description" content="{{ SITE_DESCRIPTION }}" />
@@ -115,7 +115,7 @@
             {% if SHOW_CREDITS and SHOW_CREDITS.left %}
               {% set left=SHOW_CREDITS.left %}
             {% else %}
-              {% set left='Theme <a href="https://github.com/iameo/xxxxx" rel="nofollow">[NotYetMadePublic]</a>' %}
+              {% set left='Theme <a href="https://github.com/iameo/atyna" rel="nofollow">atyna</a>' %}
             {% endif %}
 
             {% if SHOW_CREDITS and SHOW_CREDITS.right %}
