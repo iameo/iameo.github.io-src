@@ -930,13 +930,14 @@ img {
     padding-right: 0;
     transition: all ease-out 0.25s
 }
-/*
+
 #blog-header, #post-header {
     position: relative;
     padding-right: 0;
     transition: all ease-out 0.25s
 }
-*/
+
+
 #wrapper .hidden-close {
     display: none;
     position: absolute;
@@ -962,7 +963,7 @@ img {
 }
 
 .inner {
-    max-width: 33.45em;
+    max-width: 32.45em;
     margin: 0 auto;
     padding: 0 .45em;
 }

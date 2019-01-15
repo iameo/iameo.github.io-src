@@ -7,6 +7,7 @@
         gtag('js', new Date());
         gtag('config', '{{GOOGLE_ANALYTICS}}', { 'anonymize_ip': true });
     </script>
+    
 {% endif %}
 {% if GAUGES %}
     <script type="text/javascript">
