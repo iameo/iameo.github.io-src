@@ -1,4 +1,4 @@
-title: NaN. What NaN? Handling Missing Values in your Data. (Regression)
+title: NaN. What NaN? Handling Missing Values in your Data.
 slug: nan-what-nan-handling-missing-values
 date: 2019-01-13 18:40
 category: Data Science
@@ -55,16 +55,14 @@ A convenient way to achieve this is by using the <code>Imputer</code> class from
 Not much of a task, yeah? no? Okay. We imported the <code>Imputer</code> class from __scikit-learn__, gave it a 'strategy' to handle the data, fitted the data and then transformed it. Easy peasy--no? Just go over it line by line.
 
 #### NB:
-1. The axis here is quite different from the previous. Here 0 is for row while 1 is for column.
-2. The strategy <code>most_frequent</code> is suitable for imputing categorical feature values, for         example, a feature column that contains an encoding of color names, such as green, orange, and blue.
-3. Understanding the scikit-learn estimator API:
+1. The strategy <code>most_frequent</code> is suitable for imputing categorical feature values, for         example, a feature column that contains an encoding of color names, such as green, orange, and blue.
+2. Understanding the scikit-learn estimator API:
 ![Fit-transform - sklearn](https://i.stack.imgur.com/PiaIX.png)
 *image source: [imgur](https://i.stack.imgur.com/PiaIX.png)
-4. The <code>fit</code> method learns the parameter from the training data, and the <code>transform</code> method use these parameters to transform the data. 
-  
+3. The <code>fit</code> method learns the parameter from the training data, and the <code>transform</code> method use these parameters to transform the data. 
+4. There are other ways of handling NaN. Go find out!
 
 ##### Resources:
 1. Python Machine Learning by Sebastian Raschka.
 2. [scikit data transformation](https://scikit-learn.org/stable/data_transforms.html#dataset-transformations)
 
-(Watch out for Handling missing categorical values)
