@@ -612,6 +612,7 @@ hr {
 blockquote {
     font-style: italic;
     color: #45484d;
+    margin-top:-1em;
     margin-left: .5em;
     border-left: 0.2em solid rgb(61, 73, 80);
     border-top: 0.09em solid rgb(61, 73, 80);
