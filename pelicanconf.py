@@ -38,6 +38,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 #copied
 MARKUP = ['md','ipynb']
+
 PLUGIN_PATHS = ['./plugins', './plugins/pelican-plugins']
 PLUGINS = [
     'render_math',
@@ -81,3 +82,7 @@ SHOW_FEED = False
 
 
 GOOGLE_ANALYTICS = 'UA-132444432-1'
+
+
+
+

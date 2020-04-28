@@ -5,6 +5,8 @@ __pycache__/
 
 output/
 
+.vscode/
+
 # C extensions
 *.so
 
