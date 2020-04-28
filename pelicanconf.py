@@ -25,7 +25,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/iamOEmmanuel'),
+SOCIAL = (('twitter', 'https://twitter.com/__oemmanuel__'),
           ('github', 'https://github.com/iameo'),
           ('envelope','mailto:okwudike.emmanuel@gmail.com'))
 
@@ -74,7 +74,7 @@ SHOW_FULL_ARTICLE = False
 STATIC_PATHS = ['images','downloads']
 
 
-TWITTER_USERNAME = 'iamOEmmanuel'
+TWITTER_USERNAME = '__oemmanuel__'
 GITHUB_USERNAME = 'iameo'
 AUTHOR_BLOG = 'https://iameo.github.io'
 SHOW_ARCHIVES = True
