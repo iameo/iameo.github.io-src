@@ -1,2 +1,0 @@
-# atyna
-A Pelican theme
